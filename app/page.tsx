@@ -337,7 +337,7 @@ export default function HomePage() {
               className="max-w-xl"
             >
               <motion.div variants={fadeInUp}>
-                <span className="inline-flex items-center gap-1.5 rounded-full border border-blue-200 bg-blue-50 px-3 py-1 text-xs font-medium text-blue-700">
+                <span className="inline-flex items-center gap-1.5 rounded-full border border-blue-200 bg-blue-50 px-3 py-1 text-xs font-medium text-blue-700" style={{ color: "#ef4444" }} >
                   <span className="h-1.5 w-1.5 rounded-full bg-blue-500" />
                   Built for environmental compliance teams
                 </span>
